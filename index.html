@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="head">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact<a></li>
+            <li><a href="#">Work</a></li>
+        </ul>
+    </header>
+    <div class="menu-button">
+        <i id="menu" class="fas fa-bars" onclick="menu()"></i>
+    </div>
+    <section class="main">
+        <h1>I'M A WEB DEVELOPER</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, magnam id quod aut corrupti hic quidem est, cupiditate tempore eligendi culpa dolor, atque eaque quia officia impedit iure modi. Et ex aut odit rerum sequi ea neque in totam accusamus!</p>
+        <button>WORKS</button>
+    </section>
+    <section class="skill">
+        <div class="box1">
+            <i class="fas fa-mobile"></i>          
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A tempore repellat laborum molestiae quod harum placeat blanditiis excepturi possimus quo.</p>
+        </div>
+        <div class="box2">
+            <i class="fas fa-code"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo excepturi praesentium recusandae unde amet iusto mollitia perferendis iste, nam cupiditate.</p>
+        </div>
+        <div class="box3">
+                <i class="fas fa-server"></i>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam eum aspernatur itaque officia est dolore iusto necessitatibus nemo magnam eos.
+                </p>
+        </div>
+    </section>
+    <section class="contact">
+        <h1>I'M AVAILABLE</h1>
+        <button>Contact Me</button>
+    </section>
+    <footer>
+        <i class="far fa-copyright"></i>
+        <span>Sanjay chandran 2019</span>
+    </footer>
+<script>
+    const head = document.getElementById("head")
+    function menu() {
+        head.style.flexDirection = "column"
+        head.style.alignItems = "center"
+        head.style.justifyContent = "center"
+        head.style.position = "absolute"
+        head.style.width = "100%"
+        head.style.height = "200px"
+        head.style.top = "45px"
+        head.style.display = "flex"
+    }
+</script>   
+</body>
+</html>

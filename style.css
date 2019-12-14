@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #ff5555ff;
+    display: flex;
+    flex-direction: row-reverse;
+}
+header ul{
+    list-style-type: none;
+    margin: 20px 70px;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.main{
+    height: 500px;
+    background-color: #f2f2f2ff;
+    color: #ff5555ff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    margin: 100px 0;
+}
+
+.main p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.main button{
+    margin: 10px 0;
+    width: 200px;
+    height: 45px;
+    border: none;
+    background: #ff5555ff;
+    border-radius: 15px;
+    color: white;
+}
+
+.skill{
+    height: 500px;
+    background-color: #ff5555ff;
+    display: flex;
+    align-items: center;
+}
+
+.box1,.box2,.box3{
+    text-align: center;
+    color: white;
+}
+
+p{
+    line-height: 30px;
+    padding: 30px 0;
+}
+
+i{
+    font-size: 48px;
+    margin: 30px 0;
+}
+
+.contact{
+    height: 300px;
+    background-color: #f2f2f2ff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contact h1{
+    color: #ff5555ff;
+    font-size: 28px;
+    margin: 100px 0;
+}
+
+.contact button{
+    width: 150px;
+    height: 45px;
+    background-color: #ff5555ff;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(61, 44, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i{
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.menu-button{
+    height: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: absolute;
+    background-color: #ff5555ff;
+    width: 100%;
+    top: 0;
+    display: none;
+}
+.menu-button i{
+    font-size: 24px;
+    margin: 0 20px;
+    color: white;
+}
+/*
+header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 45px;
+}
+*/
+@media screen and (max-width:375px){
+    header{
+        display: none;
+    }
+    .menu-button{
+        display: flex;
+    }
+
+    .skill{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main{
+        height: auto;
+    }
+
+    .main p{
+        font-size: 18px;
+    }
+
+    .main h1{
+        font-size: 24px;
+    }
+}
