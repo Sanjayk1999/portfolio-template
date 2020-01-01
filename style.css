@@ -145,9 +145,6 @@ header{
 }
 */
 @media screen and (max-width:375px){
-    header{
-        display: none;
-    }
     .menu-button{
         display: flex;
     }
